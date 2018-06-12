@@ -13,6 +13,7 @@ namespace DesignPatterns
                 // Behavioural
                 //new CommandClient(),
                 //new StrategyClient(),
+                new StateClient(),
 
                 // Structural
                 //new AdapterClient(new ListFormatter()),
