@@ -12,10 +12,11 @@ namespace DesignPatterns
             var clients = new List<Client>
             {
                 // Behavioural
-                new CommandClient(),
+                // new CommandClient(),
 
                 // Structural
-                new AdapterClient(new ListFormatter()),
+                // new AdapterClient(new ListFormatter()),
+                // new FacadeClient(),
             };
 
             clients.ForEach(client => client.Execute());
