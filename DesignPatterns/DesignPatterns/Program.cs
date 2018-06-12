@@ -14,7 +14,10 @@ namespace DesignPatterns
                 //new CommandClient(),
                 //new StrategyClient(),
                 //new StateClient(),
-                new ObserverClient(),
+                // new ObserverClient(),
+
+                // Creational
+                //new SingletonClient(),
 
                 // Structural
                 //new AdapterClient(new ListFormatter()),
