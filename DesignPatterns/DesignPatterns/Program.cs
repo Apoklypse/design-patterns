@@ -9,8 +9,12 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            var clients = new List<IClient>
+            var clients = new List<Client>
             {
+                // Behavioural
+                new CommandClient(),
+
+                // Structural
                 new AdapterClient(new ListFormatter()),
             };
 

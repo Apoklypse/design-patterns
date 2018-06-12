@@ -1,24 +1,24 @@
 ﻿using DesignPatterns.Patterns.Structural.Adapter;
+using DesignPatterns.Utility;
 using System;
 using System.Collections.Generic;
 
 namespace DesignPatterns.Clients
 {
-    public class AdapterClient : IClient
+    public class AdapterClient : Client
     {
-        IListFormatter formatter;
+        private readonly IListFormatter formatter;
 
         public AdapterClient(IListFormatter formatter)
         {
+            this.Name = "Adapter";
+            this.Category = PatternCategories.Structural.ToString();
+
             this.formatter = formatter;
         }
 
-        public void Execute()
+        protected override void PerfomAction()
         {
-            Console.WriteLine("##############");
-            Console.WriteLine("Adapter");
-            Console.WriteLine("##############");
-
             var list = new List<string>
             {
                 "a",

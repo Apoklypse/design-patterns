@@ -6,9 +6,4 @@
     <StartupObject>DesignPatterns.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Patterns\Creational\" />
-    <Folder Include="Patterns\Behavioural\" />
-  </ItemGroup>
-
 </Project>
