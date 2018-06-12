@@ -13,7 +13,8 @@ namespace DesignPatterns
                 // Behavioural
                 //new CommandClient(),
                 //new StrategyClient(),
-                new StateClient(),
+                //new StateClient(),
+                new ObserverClient(),
 
                 // Structural
                 //new AdapterClient(new ListFormatter()),
@@ -21,6 +22,8 @@ namespace DesignPatterns
             };
 
             clients.ForEach(client => client.Execute());
+
+            Console.WriteLine("#End#");
             Console.ReadLine();
         }
     }
