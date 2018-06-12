@@ -1,5 +1,4 @@
 ﻿using DesignPatterns.Clients;
-using DesignPatterns.Patterns.Structural.Adapter;
 using System;
 using System.Collections.Generic;
 
@@ -12,11 +11,12 @@ namespace DesignPatterns
             var clients = new List<Client>
             {
                 // Behavioural
-                // new CommandClient(),
+                //new CommandClient(),
+                //new StrategyClient(),
 
                 // Structural
-                // new AdapterClient(new ListFormatter()),
-                // new FacadeClient(),
+                //new AdapterClient(new ListFormatter()),
+                //new FacadeClient(),
             };
 
             clients.ForEach(client => client.Execute());

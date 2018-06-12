@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns.Utility;
+using System;
 
 namespace DesignPatterns.Clients
 {
@@ -6,7 +7,7 @@ namespace DesignPatterns.Clients
     {
         public string Name { get; set; }
 
-        public string Category { get; set; }
+        public PatternCategories Category { get; set; }
 
         public void Execute()
         {

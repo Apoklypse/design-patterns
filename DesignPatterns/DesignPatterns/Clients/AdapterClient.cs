@@ -12,7 +12,7 @@ namespace DesignPatterns.Clients
         public AdapterClient(IListFormatter formatter)
         {
             this.Name = "Adapter";
-            this.Category = PatternCategories.Structural.ToString();
+            this.Category = PatternCategories.Structural;
 
             this.formatter = formatter;
         }

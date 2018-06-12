@@ -8,7 +8,7 @@ namespace DesignPatterns.Clients
         public CommandClient()
         {
             this.Name = "Command";
-            this.Category = PatternCategories.Behavioural.ToString();
+            this.Category = PatternCategories.Behavioural;
         }
 
         protected override void PerfomAction()

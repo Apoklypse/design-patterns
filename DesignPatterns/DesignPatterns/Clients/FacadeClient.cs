@@ -11,7 +11,7 @@ namespace DesignPatterns.Clients
         public FacadeClient()
         {
             this.Name = "Facade";
-            this.Category = PatternCategories.Structural.ToString();
+            this.Category = PatternCategories.Structural;
         }
 
         protected override void PerfomAction()
