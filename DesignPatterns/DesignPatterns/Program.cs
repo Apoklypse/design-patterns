@@ -1,12 +1,21 @@
-﻿using System;
+﻿using DesignPatterns.Clients;
+using DesignPatterns.Patterns.Structural.Adapter;
+using System;
+using System.Collections.Generic;
 
 namespace DesignPatterns
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var clients = new List<IClient>
+            {
+                new AdapterClient(new ListFormatter()),
+            };
+
+            clients.ForEach(client => client.Execute());
+            Console.ReadLine();
         }
     }
 }
