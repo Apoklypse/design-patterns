@@ -18,6 +18,7 @@ namespace DesignPatterns
 
                 // Creational
                 //new SingletonClient(),
+                //new AbstractFactoryClient(),
 
                 // Structural
                 //new AdapterClient(new ListFormatter()),
