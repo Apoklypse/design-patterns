@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Clients;
+using DesignPatterns.Patterns.Structural.Adapter;
 using System;
 using System.Collections.Generic;
 
@@ -10,17 +11,17 @@ namespace DesignPatterns
         {
             var clients = new List<Client>
             {
-                // Behavioural
+                //// Behavioural
                 //new CommandClient(),
                 //new StrategyClient(),
                 //new StateClient(),
-                // new ObserverClient(),
+                //new ObserverClient(),
 
-                // Creational
+                //// Creational
                 //new SingletonClient(),
                 //new AbstractFactoryClient(),
 
-                // Structural
+                //// Structural
                 //new AdapterClient(new ListFormatter()),
                 //new FacadeClient(),
             };
