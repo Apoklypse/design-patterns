@@ -20,6 +20,7 @@ namespace DesignPatterns
                 //// Creational
                 //new SingletonClient(),
                 //new AbstractFactoryClient(),
+                new BuilderClient(),
 
                 //// Structural
                 //new AdapterClient(new ListFormatter()),
