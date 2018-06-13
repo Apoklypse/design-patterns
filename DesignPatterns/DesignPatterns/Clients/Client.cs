@@ -5,9 +5,8 @@ namespace DesignPatterns.Clients
 {
     public abstract class Client
     {
-        public string Name { get; set; }
-
         public PatternCategories Category { get; set; }
+        public string Name { get; set; }
 
         public void Execute()
         {

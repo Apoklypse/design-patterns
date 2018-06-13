@@ -1,7 +1,4 @@
 ﻿using DesignPatterns.Patterns.Creational.AbstractFactory.Products;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Patterns.Creational.AbstractFactory.Factories
 {
@@ -10,7 +7,6 @@ namespace DesignPatterns.Patterns.Creational.AbstractFactory.Factories
         public BusinessPackageFactory()
         {
             this.name = "Business Package";
-
         }
 
         public override CapProduct CreateCap()

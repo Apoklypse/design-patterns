@@ -2,12 +2,12 @@
 {
     public class GameContext
     {
-        public IState State { get; set; }
-
         public GameContext()
         {
             this.State = new BeginState();
         }
+
+        public IState State { get; set; }
 
         public void EndPhase()
         {

@@ -1,16 +1,14 @@
 ﻿using DesignPatterns.Patterns.Creational.AbstractFactory.Factories;
 using DesignPatterns.Patterns.Creational.AbstractFactory.Products;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Patterns.Creational.AbstractFactory
 {
     public class NetPackageBuilder
     {
-        private string name;
         private CapProduct cap;
         private LineSpeedProduct lineSpeed;
+        private string name;
 
         public NetPackageBuilder(NetPackageFactory factory)
         {

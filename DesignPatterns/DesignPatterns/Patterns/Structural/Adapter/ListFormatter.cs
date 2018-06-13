@@ -4,7 +4,7 @@ namespace DesignPatterns.Patterns.Structural.Adapter
 {
     public class ListFormatter : IListFormatter
     {
-        ArrayFormatter formatter;
+        private ArrayFormatter formatter;
 
         public ListFormatter()
         {

@@ -2,16 +2,16 @@
 {
     public class SubtractionCommand : CalculatorCommand
     {
-        public double LeftHandSide { get; set; }
-
-        public double RightHandSide { get; set; }
-
         public SubtractionCommand(Calculator calculator, double leftHandSide, double rightHandSide)
             : base(calculator)
         {
             this.LeftHandSide = leftHandSide;
             this.RightHandSide = rightHandSide;
         }
+
+        public double LeftHandSide { get; set; }
+
+        public double RightHandSide { get; set; }
 
         public override void Execute()
         {

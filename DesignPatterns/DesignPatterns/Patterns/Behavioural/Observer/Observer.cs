@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Patterns.Behavioural.Observer
+﻿namespace DesignPatterns.Patterns.Behavioural.Observer
 {
     public abstract class Observer
     {

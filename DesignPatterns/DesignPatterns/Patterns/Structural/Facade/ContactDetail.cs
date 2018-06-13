@@ -2,8 +2,7 @@
 {
     public class ContactDetail
     {
-        public ContactNumberTypes Type { get; set; }
-
         public string Number { get; set; }
+        public ContactNumberTypes Type { get; set; }
     }
 }

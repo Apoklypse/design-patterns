@@ -1,7 +1,4 @@
 ﻿using DesignPatterns.Patterns.Creational.AbstractFactory.Products;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Patterns.Creational.AbstractFactory.Factories
 {
@@ -18,6 +15,7 @@ namespace DesignPatterns.Patterns.Creational.AbstractFactory.Factories
         }
 
         public abstract CapProduct CreateCap();
+
         public abstract LineSpeedProduct CreateLineSpeed();
     }
 }

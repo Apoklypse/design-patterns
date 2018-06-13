@@ -1,8 +1,5 @@
 ﻿using DesignPatterns.Patterns.Behavioural.Observer;
 using DesignPatterns.Utility;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Clients
 {

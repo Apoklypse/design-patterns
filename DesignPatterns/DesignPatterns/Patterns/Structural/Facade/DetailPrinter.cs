@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Patterns.Structural.Facade
+﻿namespace DesignPatterns.Patterns.Structural.Facade
 {
     public class DetailPrinter : IDetailPrinter
     {
-        private readonly PersonalInformationPrinter piPrinter;
         private readonly ContactInformationPrinter ciPrinter;
+        private readonly PersonalInformationPrinter piPrinter;
 
         public DetailPrinter()
         {

@@ -4,6 +4,11 @@
     {
         protected Computer computer;
 
+        public ComputerBuilder()
+        {
+            this.computer = new Computer();
+        }
+
         public Computer Computer
         {
             get
@@ -12,17 +17,12 @@
             }
         }
 
-        public ComputerBuilder()
-        {
-            this.computer = new Computer();
-        }
-
         public abstract void BuildCpu();
+
+        public abstract void BuildGpu();
 
         public abstract void BuildPrimaryMemory();
 
         public abstract void BuildSecondaryMemory();
-
-        public abstract void BuildGpu();
     }
 }

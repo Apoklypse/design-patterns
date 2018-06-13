@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPatterns.Patterns.Structural.Adapter
+﻿namespace DesignPatterns.Patterns.Structural.Adapter
 {
     public class ArrayFormatter
     {

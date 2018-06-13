@@ -1,5 +1,4 @@
 ﻿using DesignPatterns.Clients;
-using DesignPatterns.Patterns.Structural.Adapter;
 using System;
 using System.Collections.Generic;
 
@@ -7,7 +6,7 @@ namespace DesignPatterns
 {
     public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var clients = new List<Client>
             {

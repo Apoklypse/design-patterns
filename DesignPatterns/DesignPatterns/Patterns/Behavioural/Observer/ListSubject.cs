@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace DesignPatterns.Patterns.Behavioural.Observer
 {
     public class ListSubject : Subject
     {
-        public List<string> List { get; set; }
-
         public ListSubject()
         {
             this.List = new List<string>();
         }
+
+        public List<string> List { get; set; }
 
         public void addItem(string item)
         {

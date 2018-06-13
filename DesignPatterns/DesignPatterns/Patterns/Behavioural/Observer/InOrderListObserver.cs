@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Patterns.Behavioural.Observer
 {
@@ -12,7 +11,7 @@ namespace DesignPatterns.Patterns.Behavioural.Observer
         {
             this.subject = subject;
         }
-        
+
         public override void Update()
         {
             Console.WriteLine("[In-order Printer] List has changed:");

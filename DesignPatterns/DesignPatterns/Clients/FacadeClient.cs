@@ -1,7 +1,6 @@
 ﻿using DesignPatterns.Patterns.Structural;
 using DesignPatterns.Patterns.Structural.Facade;
 using DesignPatterns.Utility;
-using System;
 using System.Collections.Generic;
 
 namespace DesignPatterns.Clients
